@@ -74,5 +74,9 @@ public class MakeChangeTest {
         assertEquals(hmap, makeChange.makeChange(17));
     }
 
-    
+    @Test
+    public void testTwentyFiveCents() {
+        hmap.put('Q', 1);
+        assertEquals(hmap, makeChange.makeChange(25));
+    }
 }
