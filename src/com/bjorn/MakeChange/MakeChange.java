@@ -13,11 +13,23 @@ public class MakeChange {
 //        if(cashTendered == 0) {
 //            return hmap;
 //        }
-        switch (cashTendered) {
-            case 0: return hmap;
-            case 1: hmap.put('P', 1);
-        }
+        while (cashTendered > 0) {
+            if(cashTendered == 0){
+                return hmap;
+            }
+            else if(cashTendered < 5){
+                int temp = 0;
+                if (hmap.get('P') != null) {
+                    temp = hmap.get('P');
+                }
+                hmap.put('P', temp + 1);
+                cashTendered--;
+            }
+            else {
+                return hmap;
+            }
 
+        }
         return hmap;
     }
 }
