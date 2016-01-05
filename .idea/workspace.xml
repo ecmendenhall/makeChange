@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="392548ac-7bee-42bc-8a3d-3af4463e5d1f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java" afterPath="$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java" afterPath="$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java" />
     </list>
     <ignored path="makeChange.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MakeChangeTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MakeChangeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.4905663">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.77074236">
+              <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#640#641#0" expanded="true" />
@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MakeChange.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MakeChange.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6164383">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding>
                 <element signature="e#255#275#0" expanded="true" />
               </folding>
@@ -73,8 +73,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java" />
         <option value="$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java" />
+        <option value="$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java" />
       </list>
     </option>
   </component>
@@ -556,15 +556,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 28m 06s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 29m 52s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 30m 07s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MakeChangeTest - 2016.01.05 at 15h 31m 32s.xml">
       <configuration name="MakeChangeTest" configurationId="JUnit" />
     </history-entry>
@@ -581,6 +572,15 @@
       <configuration name="MakeChangeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MakeChangeTest - 2016.01.05 at 15h 40m 02s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 41m 52s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 44m 01s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 44m 43s.xml">
       <configuration name="MakeChangeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MakeChangeTest_testTenCents - 2016.01.05 at 15h 33m 28s.xml">
@@ -659,26 +659,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#255#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.4905663">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.77074236">
+          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#640#641#0" expanded="true" />
             <element signature="e#708#709#0" expanded="true" />
             <element signature="e#756#757#0" expanded="true" />
             <element signature="e#816#817#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6164383">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="e#255#275#0" expanded="true" />
           </folding>
         </state>
       </provider>

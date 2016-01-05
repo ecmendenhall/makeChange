@@ -48,6 +48,12 @@ public class MakeChangeTest {
     }
 
     @Test
+    public void testFiveCents() {
+        hmap.put('N', 1);
+        assertEquals(hmap, makeChange.makeChange(5));
+    }
+
+    @Test
     public void testNineCents() {
         hmap.put('P', 4);
         hmap.put('N', 1);
@@ -60,4 +66,13 @@ public class MakeChangeTest {
         assertEquals(hmap, makeChange.makeChange(10));
     }
 
+    @Test
+    public void testSeventeenCents() {
+        hmap.put('D', 1);
+        hmap.put('N', 1);
+        hmap.put('P', 2);
+        assertEquals(hmap, makeChange.makeChange(17));
+    }
+
+    
 }
