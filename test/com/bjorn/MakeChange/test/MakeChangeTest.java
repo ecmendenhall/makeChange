@@ -47,4 +47,11 @@ public class MakeChangeTest {
         assertEquals(hmap, makeChange.makeChange(4));
     }
 
+    @Test
+    public void testNineCents() {
+        hmap.put('P', 4);
+        hmap.put('N', 1);
+        assertEquals(hmap, makeChange.makeChange(9));
+    }
+
 }
