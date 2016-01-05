@@ -12,11 +12,17 @@ public class MakeChange {
         int temp = 0;
 
         while (cashTendered > 0) {
-            if(cashTendered == 0){
-                return hmap;
-            }
 
-            if (cashTendered > 5){
+
+            if (cashTendered >= 10){
+                temp = 0;
+                if (hmap.get('D') != null) {
+                    temp = hmap.get('D');
+                }
+                hmap.put('D', temp + 1);
+                cashTendered -= 10;
+            }
+            else if (cashTendered >= 5){
                 temp = 0;
                 if (hmap.get('N') != null) {
                     temp = hmap.get('N');
