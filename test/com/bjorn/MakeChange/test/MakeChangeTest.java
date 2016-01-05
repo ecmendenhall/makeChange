@@ -41,5 +41,10 @@ public class MakeChangeTest {
         assertEquals(hmap, makeChange.makeChange(1));
     }
 
+    @Test
+    public void testFourCents() {
+        hmap.put('P', 4);
+        assertEquals(hmap, makeChange.makeChange(4));
+    }
 
 }
