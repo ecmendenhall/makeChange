@@ -54,4 +54,10 @@ public class MakeChangeTest {
         assertEquals(hmap, makeChange.makeChange(9));
     }
 
+    @Test
+    public void testTenCents() {
+        hmap.put('D', 1);
+        assertEquals(hmap, makeChange.makeChange(10));
+    }
+
 }
