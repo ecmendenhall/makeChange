@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MakeChangeTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MakeChangeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7379913">
-              <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+            <state vertical-scroll-proportion="-6.943396">
+              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#640#641#0" expanded="true" />
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MakeChange.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MakeChange.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.20547946">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
                 <element signature="e#255#275#0" expanded="true" />
               </folding>
@@ -74,8 +74,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java" />
         <option value="$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java" />
+        <option value="$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java" />
       </list>
     </option>
   </component>
@@ -232,32 +232,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MakeChangeTest.testOneCent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.bjorn.MakeChange.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="makeChange" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.bjorn.MakeChange.test" />
-      <option name="MAIN_CLASS_NAME" value="com.bjorn.MakeChange.test.MakeChangeTest" />
-      <option name="METHOD_NAME" value="testOneCent" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="MakeChangeTest.testTenCents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -271,6 +245,58 @@
       <option name="PACKAGE_NAME" value="com.bjorn.MakeChange.test" />
       <option name="MAIN_CLASS_NAME" value="com.bjorn.MakeChange.test.MakeChangeTest" />
       <option name="METHOD_NAME" value="testTenCents" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MakeChangeTest.testFourtyThreeCents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bjorn.MakeChange.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="makeChange" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bjorn.MakeChange.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bjorn.MakeChange.test.MakeChangeTest" />
+      <option name="METHOD_NAME" value="testFourtyThreeCents" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MakeChangeTest.testNinetySevenCents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bjorn.MakeChange.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="makeChange" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bjorn.MakeChange.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bjorn.MakeChange.test.MakeChangeTest" />
+      <option name="METHOD_NAME" value="testNinetySevenCents" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -528,18 +554,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MakeChangeTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.MakeChangeTest.testInstanceOf" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MakeChangeTest.testOneCent" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MakeChangeTest.testTenCents" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MakeChangeTest.testTenCents" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MakeChangeTest.testFourtyThreeCents" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MakeChangeTest.testNinetySevenCents" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.MakeChangeTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MakeChangeTest.testTenCents" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MakeChangeTest.testInstanceOf" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MakeChangeTest.testOneCent" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MakeChangeTest.testNinetySevenCents" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MakeChangeTest.testFourtyThreeCents" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MakeChangeTest.testTenCents" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MakeChangeTest.testInstanceOf" />
       </list>
     </recent_temporary>
   </component>
@@ -557,21 +585,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 33m 17s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 34m 57s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 39m 15s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 40m 02s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 41m 52s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MakeChangeTest - 2016.01.05 at 15h 44m 01s.xml">
       <configuration name="MakeChangeTest" configurationId="JUnit" />
     </history-entry>
@@ -584,8 +597,23 @@
     <history-entry file="MakeChangeTest - 2016.01.05 at 15h 46m 59s.xml">
       <configuration name="MakeChangeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakeChangeTest_testTenCents - 2016.01.05 at 15h 33m 28s.xml">
-      <configuration name="MakeChangeTest.testTenCents" configurationId="JUnit" />
+    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 50m 45s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 51m 34s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 52m 24s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 52m 50s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 56m 16s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest_testFourtyThreeCents - 2016.01.05 at 15h 50m 35s.xml">
+      <configuration name="MakeChangeTest.testFourtyThreeCents" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -660,26 +688,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="e#255#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7379913">
-          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        <state vertical-scroll-proportion="-6.943396">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#640#641#0" expanded="true" />
             <element signature="e#708#709#0" expanded="true" />
             <element signature="e#756#757#0" expanded="true" />
             <element signature="e#816#817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20547946">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#255#275#0" expanded="true" />
           </folding>
         </state>
       </provider>

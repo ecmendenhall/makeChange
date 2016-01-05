@@ -14,7 +14,15 @@ public class MakeChange {
         while (cashTendered > 0) {
 
 
-            if (cashTendered >= 25){
+            if (cashTendered >= 50){
+                temp = 0;
+                if (hmap.get('H') != null) {
+                    temp = hmap.get('H');
+                }
+                hmap.put('H', temp + 1);
+                cashTendered -= 50;
+            }
+            else if (cashTendered >= 25){
                 temp = 0;
                 if (hmap.get('Q') != null) {
                     temp = hmap.get('Q');

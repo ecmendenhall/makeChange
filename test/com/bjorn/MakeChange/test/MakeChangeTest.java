@@ -79,4 +79,28 @@ public class MakeChangeTest {
         hmap.put('Q', 1);
         assertEquals(hmap, makeChange.makeChange(25));
     }
+
+    @Test
+    public void testFourtyThreeCents() {
+        hmap.put('Q', 1);
+        hmap.put('D', 1);
+        hmap.put('N', 1);
+        hmap.put('P', 3);
+        assertEquals(hmap, makeChange.makeChange(43));
+    }
+
+    @Test
+    public void testFiftyCents() {
+        hmap.put('H', 1);
+        assertEquals(hmap, makeChange.makeChange(50));
+    }
+
+    @Test
+    public void testNinetySevenCents() {
+        hmap.put('H', 1);
+        hmap.put('Q', 1);
+        hmap.put('D', 2);
+        hmap.put('P', 2);
+        assertEquals(hmap, makeChange.makeChange(97));
+    }
 }
