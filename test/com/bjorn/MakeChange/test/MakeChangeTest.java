@@ -103,4 +103,9 @@ public class MakeChangeTest {
         hmap.put('P', 2);
         assertEquals(hmap, makeChange.makeChange(97));
     }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void testForNegativeNumbers() {
+        makeChange.makeChange(-1);
+    }
 }

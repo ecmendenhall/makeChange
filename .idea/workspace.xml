@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="392548ac-7bee-42bc-8a3d-3af4463e5d1f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java" afterPath="$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java" afterPath="$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java" />
     </list>
     <ignored path="makeChange.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,13 +29,15 @@
         <entry file="file://$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.80349344">
-              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+              <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#640#641#0" expanded="true" />
                 <element signature="e#708#709#0" expanded="true" />
                 <element signature="e#756#757#0" expanded="true" />
                 <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#2487#2488#0" expanded="true" />
+                <element signature="e#2528#2529#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,9 +47,9 @@
         <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
-                <element signature="e#529#549#0" expanded="true" />
+                <element signature="e#620#640#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -584,15 +587,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 52m 24s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 52m 50s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 15h 56m 16s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MakeChangeTest - 2016.01.05 at 17h 13m 46s.xml">
       <configuration name="MakeChangeTest" configurationId="JUnit" />
     </history-entry>
@@ -612,6 +606,15 @@
       <configuration name="MakeChangeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MakeChangeTest - 2016.01.05 at 17h 23m 35s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 37m 57s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 39m 14s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 46m 25s.xml">
       <configuration name="MakeChangeTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -690,9 +693,9 @@
     <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
-            <element signature="e#529#549#0" expanded="true" />
+            <element signature="e#620#640#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,13 +703,15 @@
     <entry file="file://$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.80349344">
-          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#640#641#0" expanded="true" />
             <element signature="e#708#709#0" expanded="true" />
             <element signature="e#756#757#0" expanded="true" />
             <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#2487#2488#0" expanded="true" />
+            <element signature="e#2528#2529#0" expanded="true" />
           </folding>
         </state>
       </provider>

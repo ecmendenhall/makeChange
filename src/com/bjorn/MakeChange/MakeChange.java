@@ -16,6 +16,9 @@ public class MakeChange {
     }
 
     public HashMap<Character, Integer> makeChange(int cashTendered) {
+        if(cashTendered < 0) {
+            throw new IllegalArgumentException();
+        }
         HashMap<Character, Integer> hmap = new HashMap<Character, Integer>();
         int temp = 0;
 
