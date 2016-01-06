@@ -16,14 +16,13 @@ import static org.junit.Assert.assertEquals;
 public class MakeChangeTest {
 
     private MakeChange makeChange;
-    private HashMap<Character, Integer> hmap;
+    private HashMap<Character, Integer> coinAmountHashMap;
 
     @Before
     public void setUp() {
         makeChange = new MakeChange();
-        hmap = new HashMap<Character, Integer>();
+        coinAmountHashMap = new HashMap<Character, Integer>();
     }
-
 
     @Test
     public void testInstanceOf() {
@@ -32,80 +31,81 @@ public class MakeChangeTest {
 
     @Test
     public void testZeroCurrency() {
-        assertEquals(hmap, makeChange.makeChange(0));
+        assertEquals(coinAmountHashMap, makeChange.makeChange(0));
     }
 
     @Test
     public void testOneCent() {
-        hmap.put('P', 1);
-        assertEquals(hmap, makeChange.makeChange(1));
+        coinAmountHashMap.put('P', 1);
+        assertEquals(coinAmountHashMap, makeChange.makeChange(1));
     }
 
     @Test
     public void testFourCents() {
-        hmap.put('P', 4);
-        assertEquals(hmap, makeChange.makeChange(4));
+        coinAmountHashMap.put('P', 4);
+        assertEquals(coinAmountHashMap, makeChange.makeChange(4));
     }
 
     @Test
     public void testFiveCents() {
-        hmap.put('N', 1);
-        assertEquals(hmap, makeChange.makeChange(5));
+        coinAmountHashMap.put('N', 1);
+        assertEquals(coinAmountHashMap, makeChange.makeChange(5));
     }
 
     @Test
     public void testNineCents() {
-        hmap.put('P', 4);
-        hmap.put('N', 1);
-        assertEquals(hmap, makeChange.makeChange(9));
+        coinAmountHashMap.put('P', 4);
+        coinAmountHashMap.put('N', 1);
+        assertEquals(coinAmountHashMap, makeChange.makeChange(9));
     }
 
     @Test
     public void testTenCents() {
-        hmap.put('D', 1);
-        assertEquals(hmap, makeChange.makeChange(10));
+        coinAmountHashMap.put('D', 1);
+        assertEquals(coinAmountHashMap, makeChange.makeChange(10));
     }
 
     @Test
     public void testSeventeenCents() {
-        hmap.put('D', 1);
-        hmap.put('N', 1);
-        hmap.put('P', 2);
-        assertEquals(hmap, makeChange.makeChange(17));
+        coinAmountHashMap.put('D', 1);
+        coinAmountHashMap.put('N', 1);
+        coinAmountHashMap.put('P', 2);
+        assertEquals(coinAmountHashMap, makeChange.makeChange(17));
     }
 
     @Test
     public void testTwentyFiveCents() {
-        hmap.put('Q', 1);
-        assertEquals(hmap, makeChange.makeChange(25));
+        coinAmountHashMap.put('Q', 1);
+        assertEquals(coinAmountHashMap, makeChange.makeChange(25));
     }
 
     @Test
     public void testFourtyThreeCents() {
-        hmap.put('Q', 1);
-        hmap.put('D', 1);
-        hmap.put('N', 1);
-        hmap.put('P', 3);
-        assertEquals(hmap, makeChange.makeChange(43));
+        coinAmountHashMap.put('Q', 1);
+        coinAmountHashMap.put('D', 1);
+        coinAmountHashMap.put('N', 1);
+        coinAmountHashMap.put('P', 3);
+        assertEquals(coinAmountHashMap, makeChange.makeChange(43));
     }
 
     @Test
     public void testFiftyCents() {
-        hmap.put('H', 1);
-        assertEquals(hmap, makeChange.makeChange(50));
+        coinAmountHashMap.put('H', 1);
+        assertEquals(coinAmountHashMap, makeChange.makeChange(50));
     }
 
     @Test
     public void testNinetySevenCents() {
-        hmap.put('H', 1);
-        hmap.put('Q', 1);
-        hmap.put('D', 2);
-        hmap.put('P', 2);
-        assertEquals(hmap, makeChange.makeChange(97));
+        coinAmountHashMap.put('H', 1);
+        coinAmountHashMap.put('Q', 1);
+        coinAmountHashMap.put('D', 2);
+        coinAmountHashMap.put('P', 2);
+        assertEquals(coinAmountHashMap, makeChange.makeChange(97));
     }
 
     @Test (expected = IllegalArgumentException.class)
     public void testForNegativeNumbers() {
         makeChange.makeChange(-1);
     }
+
 }

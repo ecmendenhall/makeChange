@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="392548ac-7bee-42bc-8a3d-3af4463e5d1f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bjorn/MakeChange/IMakeChange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java" afterPath="$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java" afterPath="$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java" />
     </list>
@@ -24,43 +26,56 @@
     <favorites_list name="makeChange" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MakeChangeTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80349344">
-              <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#2487#2488#0" expanded="true" />
-                <element signature="e#2528#2529#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MakeChange.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding>
-                <element signature="e#620#640#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5540541">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="MakeChange.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.67514676">
+                  <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#709#729#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="IMakeChange.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/IMakeChange.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="MakeChangeTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.79452056">
+                  <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -76,8 +91,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/bjorn/MakeChange/IMakeChange.java" />
         <option value="$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java" />
+        <option value="$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java" />
       </list>
     </option>
   </component>
@@ -177,6 +193,9 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.bjorn.MakeChange" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.bjorn.MakeChange" />
     </key>
@@ -587,34 +606,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 13m 46s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 15m 38s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 16m 26s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 18m 42s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 19m 35s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 20m 09s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 23m 35s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 37m 57s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MakeChangeTest - 2016.01.05 at 17h 39m 14s.xml">
       <configuration name="MakeChangeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MakeChangeTest - 2016.01.05 at 17h 46m 25s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 50m 23s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 51m 36s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 54m 03s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 17h 55m 25s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.05 at 18h 17m 43s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.06 at 10h 25m 19s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.06 at 10h 31m 17s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.06 at 10h 33m 06s.xml">
       <configuration name="MakeChangeTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -629,20 +648,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17777778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -650,7 +669,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -690,28 +714,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/IMakeChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67514676">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding>
-            <element signature="e#620#640#0" expanded="true" />
+            <element signature="e#709#729#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80349344">
-          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.79452056">
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#2487#2488#0" expanded="true" />
-            <element signature="e#2528#2529#0" expanded="true" />
           </folding>
         </state>
       </provider>
