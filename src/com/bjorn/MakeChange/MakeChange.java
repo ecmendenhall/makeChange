@@ -21,7 +21,7 @@ public class MakeChange implements IMakeChange {
         CoinValueMap.put("P", 1);
     }
 
-    public void updateHash(String cointType, HashMap<String, Integer> coinAmountHashMap, int coinValue, int cashTendered) {
+    public void updateHash(String cointType, HashMap<String, Integer> coinAmountHashMap) {
         int temp = 0;
         if (coinAmountHashMap.get(cointType) != null) {
             temp = coinAmountHashMap.get(cointType);
@@ -36,7 +36,7 @@ public class MakeChange implements IMakeChange {
         HashMap<String, Integer> coinAmountHashMap = new HashMap<String, Integer>();
         for (String key : CoinValueMap.keySet()) {
             while (cashTendered >= CoinValueMap.get(key)){
-                updateHash(key, coinAmountHashMap, CoinValueMap.get(key), cashTendered);
+                updateHash(key, coinAmountHashMap);
                 cashTendered -= CoinValueMap.get(key);
             }
         }
