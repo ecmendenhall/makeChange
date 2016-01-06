@@ -28,24 +28,24 @@
     <splitter split-orientation="horizontal" split-proportion="0.6787117">
       <split-first>
         <leaf>
-          <file leaf-file-name="MakeChange.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="MakeChange.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+                <state vertical-scroll-proportion="0.68809074">
+                  <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1041#1058#0" expanded="true" />
+                    <element signature="e#1054#1071#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="IMakeChange.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="IMakeChange.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/IMakeChange.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2268431">
-                  <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="8" column="32" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -92,8 +92,8 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/test/com/bjorn/MakeChange/test/MakeChangeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java" />
         <option value="$PROJECT_DIR$/src/com/bjorn/MakeChange/IMakeChange.java" />
+        <option value="$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java" />
       </list>
     </option>
   </component>
@@ -606,9 +606,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MakeChangeTest - 2016.01.06 at 12h 09m 19s.xml">
-      <configuration name="MakeChangeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MakeChangeTest - 2016.01.06 at 12h 15m 20s.xml">
       <configuration name="MakeChangeTest" configurationId="JUnit" />
     </history-entry>
@@ -636,6 +633,9 @@
     <history-entry file="MakeChangeTest - 2016.01.06 at 12h 53m 27s.xml">
       <configuration name="MakeChangeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MakeChangeTest - 2016.01.06 at 12h 55m 20s.xml">
+      <configuration name="MakeChangeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -657,7 +657,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30721393" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30721393" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -777,22 +777,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/IMakeChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1041#1058#0" expanded="true" />
-          </folding>
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/IMakeChange.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bjorn/MakeChange/MakeChange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2268431">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-          <folding />
+        <state vertical-scroll-proportion="0.68809074">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1054#1071#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
