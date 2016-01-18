@@ -4,10 +4,6 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * Created by bjornjohnson on 1/5/16.
- */
-
 public class MakeChange implements IMakeChange {
 
     private static final Map<String, Integer> CoinValueMap;
@@ -21,14 +17,6 @@ public class MakeChange implements IMakeChange {
         CoinValueMap.put("P", 1);
     }
 
-    public void updateCoinAmountHashMap(String cointType, HashMap<String, Integer> coinAmountHashMap) {
-        int temp = 0;
-        if (coinAmountHashMap.get(cointType) != null) {
-            temp = coinAmountHashMap.get(cointType);
-        }
-        coinAmountHashMap.put(cointType, temp + 1);
-    }
-
     public HashMap<String, Integer> makeChange(int cashTendered) {
         if(cashTendered < 0 ) {
             throw new IllegalArgumentException();
@@ -36,7 +24,7 @@ public class MakeChange implements IMakeChange {
         HashMap<String, Integer> coinAmountHashMap = new HashMap<String, Integer>();
         for (String key : CoinValueMap.keySet()) {
             while (cashTendered >= CoinValueMap.get(key)){
-                updateCoinAmountHashMap(key, coinAmountHashMap);
+                coinAmountHashMap.put(key, coinAmountHashMap.getOrDefault(key, 0) + 1);
                 cashTendered -= CoinValueMap.get(key);
             }
         }
