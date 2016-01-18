@@ -25,13 +25,13 @@ public class MakeChange implements IMakeChange {
         if(cashTendered < 0 ) {
             throw new IllegalArgumentException();
         }
-        HashMap<String, Integer> expectedChange = new HashMap<>();
+        HashMap<String, Integer> changeToReturn = new HashMap<>();
         for (String coinToAdd : CoinValueMap.keySet()) {
             while (cashTendered >= CoinValueMap.get(coinToAdd)){
-                addingACoin(coinToAdd, expectedChange);
+                addingACoin(coinToAdd, changeToReturn);
                 cashTendered -= CoinValueMap.get(coinToAdd);
             }
         }
-        return expectedChange;
+        return changeToReturn;
     }
 }
